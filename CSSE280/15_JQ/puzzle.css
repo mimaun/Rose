@@ -1,0 +1,9 @@
+.tile {
+    display: inline-block;
+    background-color: yellow;
+    text-align: center;
+}
+
+.space {
+    background-color: #999;
+}

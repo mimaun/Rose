@@ -1,0 +1,91 @@
+body {
+    font-family: Verdana, serif;
+    height: 1000px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#bannerImg {
+    margin: 5px;
+}
+
+#banner {
+    background-image: url("./images/banner-background.png");
+    background-repeat: repeat-x;
+    color: white;
+}
+
+#main {
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainTitle {
+    width: 50%;
+    background-color: #f5e56b;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+input[type="text"] {
+    width: 200px;
+}
+
+input[type="submit"] {
+    box-sizing: content-box;
+    width: 80px;
+}
+
+
+legend { 
+    background-color: #dad9d4;
+    text-align: left;
+    padding: 5px;
+}
+
+form {
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* result table  */
+#result {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* zebra */
+#result tr:nth-child(odd) { 
+    background-color: white;
+}
+
+/* zebra */
+#result tr:nth-child(even) { 
+    background-color: #dad9d4;
+}
+
+/* table cell */
+#result td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* table header */
+#result th {
+    font-weight: bold;
+}
+
+#w3c {
+    margin-top: 50px;
+    margin-right: 400px;
+    float: right;
+}

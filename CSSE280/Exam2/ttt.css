@@ -1,0 +1,47 @@
+/* I did not remove anything from this file.  */
+
+ .hidden{display: none;} 
+ 
+ .highlighted {
+ 	background-color : yellow;
+ }
+ 
+ .tile {
+	display: inline-block;
+	text-align:center;
+	border: 3px solid red;
+}
+
+#finalMessage {
+	font-size: 30px;
+	color: green;
+	text-align:center;
+	margin-top: 40px;
+	width: 150px;
+}
+
+#boardsize {
+    visibility: hidden;
+}
+
+.type {
+    visibility: hidden;
+}
+
+span.no-bottom
+	{
+		border-bottom-width : 0px;
+	}
+
+span.no-top
+	{
+		border-top-width : 0px;
+	}
+span.no-left
+	{
+		border-left-width : 0px;
+	}
+span.no-right
+	{
+		border-right-width : 0px;
+	}

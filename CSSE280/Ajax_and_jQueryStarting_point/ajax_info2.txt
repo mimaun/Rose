@@ -1,0 +1,3 @@
+<hr />
+This message was loaded using <span style="color:green;font-weight:bold;">jQuery</span> code
+<hr />

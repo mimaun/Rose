@@ -1,0 +1,35 @@
+blockquote {
+	font-style: italic;
+}
+
+body {
+	background-color: white;
+	padding: 1em 2em;
+	font-family: Garamond, serif;
+	font-size: 14pt;
+}
+
+.first {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+form {
+	margin-top: 3em;
+	width: 60%;
+}
+
+form div {
+	margin-bottom: 1em;
+}
+
+.message {
+	background-color: #ffeedd;
+	border: 2px solid gray;
+	margin: 0.5em;
+	padding: 0.2em;
+}
+
+.message img {
+	vertical-align: top;
+}

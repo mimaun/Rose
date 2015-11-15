@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<head>
+</head>
+<body>
+    <button></button>
+</body>
+
+<script>
+function loadDoc() {
+    var xhttp = new XMLHTTpRequest();
+    xhttp.onreadystatechange = function() {
+        if(xhttp.readyState == 4 && xhttp.status == 200) {
+            document.getElementById("demo").innterHTML = xhttp.responseText;
+        }
+    }
+}
+
+</script>

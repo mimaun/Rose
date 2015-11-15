@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<!-- CSSE280 WebProgramming HW4                                                               -->
+<!-- Name: Misato Morino                                                                      -->
+<!-- ID: morinom                                                                              -->
+<!-- Contents: ascii.html, ascii.css, ascii.js, animation.js, myanimation.js, myanimation.txt -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="ascii.css">
+    <script src="ascii.js" type="text/javascript"></script>
+    <script src="animations.js" type="text/javascript"></script>
+    <script src="myanimation.js" type="text/javascript"></script>
+    <title>ASCIImation</title>
+</head>
+<body>
+
+<h1>ASCII Animation Viewer</h1>
+
+<div class="overall">
+    <div id="textarea">
+        <textarea id="textbox" name="asciimation" rows="20" columns="80"></textarea>
+    </div>
+
+    <div id="controls">
+        <ul>
+            <li class="control">
+                <fieldset>
+                    <legend>Play Control: </legend>
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                </fieldset>
+            </li>
+
+            <li class="control">
+                <fieldset>
+                    <legend>Animation: </legend>
+                    <select id="animationList" name="animation">
+                        <option selected="selected">Blank</option>
+                        <option>Exercise</option>
+                        <option>Juggler</option>
+                        <option>Bike</option>
+                        <option>Dive</option>
+                        <option>Custom</option>
+                    </select>
+                </fieldset>
+            </li>
+
+            <li class="control">
+                <fieldset>
+                    <legend>Size: </legend>
+                    <select id="size">
+                        <option value="tiny">Tiny</option>
+                        <option value="small">Small</option>
+                        <option value="medium" selected="selected">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="extra large">Extra Large</option>
+                        <option value="xxl">XXL</option>
+                    </select>
+                </fieldset>
+            </li>
+
+            <li class="control">
+                <fieldset>
+                    <legend>Speed: </legend>
+                    <input type="radio" name="speed" value="turbo">Turbo
+                    <input type="radio" name="speed" value="normal" checked="checked">Normal
+                    <input type="radio" name="speed" value="slo-mo">Slo-Mo
+                </fieldset>
+            </li> 
+        </ul>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

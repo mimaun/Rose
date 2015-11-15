@@ -1,0 +1,3 @@
+<hr />
+AJAX is a technique for creating fast and dynamic web pages.
+<hr />

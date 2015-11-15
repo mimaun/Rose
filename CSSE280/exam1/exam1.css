@@ -1,0 +1,19 @@
+.prime {
+    color: red;
+}
+
+.non-prime {
+    color: green;
+}
+
+span {
+    color: black;
+}
+
+#numbers {
+    -moz-columns: 3;
+    -webkit-columns: 3;
+    -o-columns: 3;
+    -ms-columns: 3;
+}
+

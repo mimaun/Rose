@@ -1,0 +1,36 @@
+body {
+    background-color: #CCCCFF;
+    text-align: center;
+}
+
+#textarea textarea {
+    width: 90%;
+    height: 400px;
+}
+
+.overall {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 12pt;
+}
+
+.control fieldset{
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+#controls ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+li.control {
+    display: inline-block;
+}
+
+input.start {
+    font-weight: bold;
+}
+
+

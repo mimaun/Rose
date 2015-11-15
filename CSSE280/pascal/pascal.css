@@ -1,0 +1,21 @@
+body {
+    font-size: 10pt;
+}
+
+#pascal {
+    text-align: center;
+}
+
+.odd {
+    width: 80px;
+    /* background-color: red; */
+    display: inline-block;
+    margin: -5px;
+}
+
+.even {
+    width: 80px;
+    /* background-color: lightgreen; */
+    display: inline-block;
+    margin: -5px;
+}
