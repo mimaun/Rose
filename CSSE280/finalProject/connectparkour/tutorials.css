@@ -1,0 +1,19 @@
+h2{
+	margin-left:100px;
+}
+
+p{
+	margin-left:130px;
+}
+
+#mashup{
+	position:fixed;
+	top:200px;
+	right:400px;
+	height:400px;
+	width:400px;
+}
+
+iframe{
+	margin-left:200px;
+}

@@ -1,0 +1,31 @@
+.loginboxes{
+	margin-top:100px;
+}
+
+.logintitle{
+	padding-top:100px;
+	font-weight:bold;
+	font-size:20pt;
+	color:black;
+}
+
+label{
+	font-size:14pt;
+	font-weight:bold;
+	color:black;
+}
+
+button{
+	margin-top:20px;
+	margin-bottom:2px;
+}
+
+#tophalf{
+	background-color:gray;
+}
+
+#logo{
+	position:fixed;
+	top:45.5%;
+	left:5%;
+}

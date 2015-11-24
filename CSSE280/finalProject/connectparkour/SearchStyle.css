@@ -1,0 +1,34 @@
+.textbox{
+	width:300px;
+}
+
+.wrap{
+	margin-top:100px;
+}
+
+.wraprow{
+	margin-top:25px;
+}
+
+p{
+	text-align:center;
+	margin-top:25px;
+	font-weight:bold;
+	font-size:15pt;
+}
+
+.searchelement{
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	border: 2px solid black;
+}
+
+.join{
+	margin-top:50px;
+}
+
+.searchbutton{
+	margin-left:25px;
+}
