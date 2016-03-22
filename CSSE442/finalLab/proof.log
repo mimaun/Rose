@@ -1,0 +1,23 @@
+Index: grades.csv
+===================================================================
+--- grades.csv	(revision 9)
++++ grades.csv	(working copy)
+@@ -3,7 +3,7 @@
+ "davidsac", "A", "Total stud.  Always shows up to class on time."
+ "downinew", "A+", "This is the grade I was looking for."
+ "efronbs", "F", ""
+-"finkac", "F", ""
++"finkac", "A+", "She is brilliant."
+ "havenscs", "A", ""
+ "hullzr", "A+", "This guy is pretty ok"
+ "jarvisoa", "A", "Jorry was here"
+@@ -15,7 +15,7 @@
+ "mayja1", "A+", "This guy isn't that bad either"
+ "mcnelljd", "A", "Jorry was here"
+ "millerna", "F", "This guy smells funny."
+-"morinom", "F", ""
++"morinom", "A+", "She is cool."
+ "niccumas", "F", ""
+ "schmidbl", "F", ""
+ "stammsl", "A+", "this guy rocks!"
+
